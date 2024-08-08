@@ -1,0 +1,262 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: #ffffff;
+    border-bottom:1px solid #e8e8e8;
+    margin: auto;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+     gap: 7px;
+
+}
+/* 
+.logo ,.Searchicon ,.fa-location-dot , input{
+} */
+
+.logo-left img{
+    width: 100px;
+   
+}
+
+.fa-location-dot{
+    color:#ff7e8b;
+    font-size: 20px;
+    
+}
+
+.logo-left{
+    display: flex;
+}
+
+.Searchicon{
+    border-left: 1px solid gray;
+    padding-left: 20px;
+}
+
+
+
+.logo input{
+    width: 200px;
+    height: 50px;
+    margin-left: 5px;
+    border: none;
+    margin-right: 10px;
+
+
+}
+
+.logo input:focus{
+    color:  #e8e8e8;
+}
+
+.logo-right{
+    /* margin-top: 15px; */
+   
+}
+
+.login-btn{
+    border: white;
+    
+    width: 90px;
+    height: 40px;
+    border-radius: 11px;
+    font-size: 18px;
+    color: darkgray;
+}
+
+.login-btn:focus{
+    border: 1px solid red;
+    color: black;
+
+}
+.list{
+    width: 290px;
+    margin-top: 15px;
+}
+
+.list span a{
+    text-decoration: none;
+    color: #0000009c;
+    
+}
+
+.list span a:hover{
+    
+    color: red;
+    
+}
+
+.list .Res{
+    color:  #504e4e48;
+}
+
+.Dinning{
+        display: flex;
+        justify-content: start;
+        gap: 24px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        
+}
+
+.Dinning div{
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+
+.Dinning div img{
+    width: 30px;
+}
+
+.diningout{
+    border-bottom: 2px solid red;
+    color: red !important;
+    
+}
+.Dinning ul li {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.Dinning ul{
+    display: flex;
+    justify-content: start;
+}
+
+.Dinning ul img{
+    align-items: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    margin-right: 0.9rem;
+    border-radius: 50%;
+    background: rgb(237, 244, 255);
+}
+
+
+.Dinning ul img ,li:hover{
+    cursor: pointer;
+}
+.Dinning ul  li:focus{
+    border-bottom: 2px solid red;
+    color:red;
+}
+
+.fa-location-dot{
+    margin-left: 5px;
+}
+
+
+.collection p span{
+    color: pink;
+}
+
+.collection p span{
+    color: pink;
+}
+
+.collection p span:hover{
+    color: rgba(230, 52, 161, 0.87);
+}
+
+ .collection .row  .img1{
+    background-image: url(images/dish11.avif);
+}
+
+.collection .row  .img2{
+    
+    background-image : url(images/dish12.avif);
+}
+
+.collection .row  .img3{
+  
+     background-image: url(images/dish13.avif);
+    
+}
+
+.collection .row  .img4{
+    background-image: url(images/dish14.avif);
+    
+}
+
+.collection .row .card-image{
+    background-size: cover;
+    height: 50vh;
+    width: 100%;
+
+}
+
+.img-card{
+    position: relative;
+}
+
+.tag{
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(90deg, rgb(17, 85, 203) 0%, rgb(83, 140, 238) 25%, rgb(17, 85, 203) 50%, rgba(17, 85, 203, 0.8) 80%, rgba(17, 85, 203, 0) 100%);
+    color: white;    
+}
+
+.tag img{
+    width: 20px;
+}
+.footer-two{
+    margin-top: 70px;
+}
+.footer{
+    margin-top: 28px;
+}
+.footer-img img{    
+    width: 200px;
+}
+.innerfooter{
+    display: flex;
+    justify-content: space-between;
+
+}
+.footer-three{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.footer-content h6{
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.footer-content p,h6{
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: gray;
+    cursor: pointer;
+}
+
+
+.apple img{
+    width: 200px;
+    margin-top: 15px;
+    cursor: pointer;
+
+}
+
+.so-icons{
+    cursor: pointer;
+}
+
+
+
+
